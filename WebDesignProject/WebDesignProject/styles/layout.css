@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: rgb(184, 184, 184);
+}
+nav ul{
+    list-style-type: none;
+    background-color: hsla(0, 41%, 42%, 0.8);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+nav a:hover{
+    color: yellow;
+    background-color: hsl(301, 43%, 34%);
+    transform: scale(1.1);
+}
+#active{
+    text-decoration: 3px dotted underline yellow;
+}
+header{
+    background-color: hsla(0, 41%, 42%, 0.8);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+main{
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    background-color: hsl(0, 0%, 0%);
+    text-align: center;
+    padding: 5px;
+}
+footer p{
+    color: white;
+}

@@ -1,0 +1,19 @@
+.menu-section{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+}
+.menu-section h2{
+    border-bottom: 2px solid #22b2a6;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 0;
+}
+.menu-item span{
+    font-weight: bold;
+}
